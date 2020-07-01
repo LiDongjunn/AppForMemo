@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textDelete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+
+    <!--
+    CheckBox的clickable属性要设置为false
+    否则点击CheckBox只会触发它自己的事件
+    不会触发ListView中Item的点击事件
+    -->
+
+    <CheckBox
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        />
+
+</LinearLayout>

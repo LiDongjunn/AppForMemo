@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <ImageButton
+            android:id="@+id/exit"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#0000"
+            android:src="@drawable/exit">
+
+        </ImageButton>
+        <TextView
+            android:id="@+id/reminderTimeTextView"
+            android:text=""
+            android:textColor="@color/gary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_centerInParent="true"
+            >
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/alarm"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#0000"
+            android:src="@drawable/alarm">
+
+        </ImageButton>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </EditText>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#0000"
+            android:src="@drawable/delete">
+
+        </ImageButton>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+
+            >
+            <TableRow
+                >
+                <ImageButton
+                    android:id="@+id/setting"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/setting">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/plan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/plan">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/add">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/friends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/friends">
+
+                </ImageButton>
+
+
+                <ImageButton
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/home">
+
+                </ImageButton>
+            </TableRow>
+        </TableLayout>
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+
+            >
+            <TextView
+                android:text="设置"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:text="计划"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:text="添加"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:text="动态"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:text="家园"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+
+
+        </GridLayout>
+    </RelativeLayout>
+
+</LinearLayout>

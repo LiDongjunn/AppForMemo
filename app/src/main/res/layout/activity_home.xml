@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pika2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Text"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            >
+        </TextView>
+    </RelativeLayout>
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="1">
+    </ListView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/selectAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="#0000"
+            android:src="@drawable/selectall"
+            android:visibility="invisible">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/downLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/selectDelete"
+            android:background="#0000"
+            android:src="@drawable/download"
+            android:visibility="visible">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/selectDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#0000"
+            android:src="@drawable/delete"
+            android:visibility="invisible">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/upLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/selectDelete"
+            android:background="#0000"
+            android:src="@drawable/upload"
+            android:visibility="visible">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/repeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="#0000"
+            android:src="@drawable/repeal"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true">
+
+        </ImageButton>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+
+            >
+            <TableRow
+                >
+                <ImageButton
+                    android:id="@+id/setting"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/setting">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/plan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/plan">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/add">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/friends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/friends">
+
+                </ImageButton>
+
+
+                <ImageButton
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4800"
+                    android:src="@drawable/home">
+
+                </ImageButton>
+            </TableRow>
+        </TableLayout>
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="60dp"
+
+
+        >
+            <TextView
+                android:text="设置"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:text="计划"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:text="添加"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:text="动态"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+            <TextView
+                android:text="家园"
+                android:textColor="@color/white"
+                android:layout_columnWeight="1"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+
+
+        </GridLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NoteCampus</string>
+    <string name="cancel">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="confirm">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="LoginTitle">Welcome NoteCampus</string>
+    <string name="LoginAccount">账号</string>
+    <string name="LoginPassword">密码</string>
+    <string name="under_title_text">We pursue a simple and happy life</string>
+    <string name="action_settings">setting</string>
+    <string name="menu_delete">Delete</string>
+</resources>

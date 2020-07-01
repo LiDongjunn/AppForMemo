@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/account_image"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/header_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="account"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="note"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <ImageButton
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exit_icon"
+        android:background="#0000"
+        android:onClick="exit"
+        >
+    </ImageButton>
+
+</LinearLayout>

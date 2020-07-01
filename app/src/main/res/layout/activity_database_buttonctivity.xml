@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DatabaseButtonctivity">
+    <TableRow>
+        <Button
+            android:id="@+id/databaseAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="5dp"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/databaseAddData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Add UserData"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="5dp"
+            tools:ignore="MissingConstraints">
+
+        </EditText>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/databaseDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="47dp"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/databaseDeleteID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Add UserData"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="5dp"
+            tools:ignore="MissingConstraints">
+
+        </EditText>
+    </TableRow>
+
+
+    <Button
+    android:id="@+id/databaseShow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SHOW"
+    tools:layout_editor_absoluteX="5dp"
+    tools:layout_editor_absoluteY="47dp"
+    tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/databaseUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="47dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/databaseTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</TableLayout>

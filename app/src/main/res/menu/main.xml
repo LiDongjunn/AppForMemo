@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_delete"
+        android:orderInCategory="10"
+        android:title="Delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_upload"
+        android:orderInCategory="10"
+        android:title="upload"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_download"
+        android:orderInCategory="10"
+        android:title="download"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/addContent"
+        android:icon="@drawable/add_icon"
+        android:orderInCategory="90"
+        android:title="addContent"
+        app:showAsAction="ifRoom" />
+</menu>
