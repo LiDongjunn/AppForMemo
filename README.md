@@ -1,5 +1,5 @@
 # AppForMemo
-memo是一个小巧方便带有提醒功能的记事本app，欢迎star，fork。
+该app是一个简单的记事本，有注册、编辑、闹钟、搜索、主题等功能，欢迎star，fork。
 
 ![image](https://github.com/LiDongjunn/AppForMemo/blob/master/images/F5EAF02A56A48E406A80F7649586041A.jpg)
 ![image](https://github.com/LiDongjunn/AppForMemo/blob/master/images/A0FDC01C0809834AB86415AF76BC257F.jpg)
